@@ -1,4 +1,4 @@
-﻿[project]
+[project]
 name = "fault-tolerant-event-processor"
 version = "0.1.0"
 description = "A fault-tolerant Kafka event processing system"

@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: fault-tolerant-event-processor
+Version: 0.1.0
+Summary: A fault-tolerant Kafka event processing system
+Requires-Python: >=3.11
+Requires-Dist: confluent-kafka<3,>=2.6
+Requires-Dist: psycopg[binary]<4,>=3.2
+Requires-Dist: pydantic<3,>=2.9
+Requires-Dist: pydantic-settings<3,>=2.6
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8.3; extra == "dev"
+Requires-Dist: ruff<1,>=0.8; extra == "dev"
